@@ -28,6 +28,6 @@ class Mailtrap extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->view('mail')->to('gatoman195@gmail.com');
     }
 }
